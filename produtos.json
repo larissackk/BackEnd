@@ -1,0 +1,89 @@
+[
+  {
+    "nome": "Arroz",
+    "preco": "9.00",
+    "quantidade": 100,
+    "peso": 10,
+    "marca": "AAAAA",
+    "codigo": 1234
+  },
+  {
+    "nome": "Feijão",
+    "preco": "18.00",
+    "quantidade": 370,
+    "peso": 15,
+    "marca": "BBBB",
+    "codigo": 5678
+  },
+  {
+    "nome": "Açucar",
+    "preco": "16.25",
+    "quantidade": 90,
+    "peso": 25,
+    "marca": "CCCC",
+    "codigo": 8910
+  },
+  {
+    "nome": "Café",
+    "preco": "35.10",
+    "quantidade": 540,
+    "peso": 12,
+    "marca": "DDDD",
+    "codigo": 1112
+  },
+  {
+    "nome": "Oléo",
+    "preco": "9.00",
+    "quantidade": 120,
+    "peso": 30,
+    "marca": "EEEE",
+    "codigo": 1314
+  },
+  {
+    "nome": "Farinha",
+    "preco": "15.30",
+    "quantidade": 222,
+    "peso": 50,
+    "marca": "FFFF",
+    "codigo": 1516
+  },
+  {
+    "nome": "Chá ",
+    "preco": "6.30",
+    "quantidade": 125,
+    "peso": 18,
+    "marca": "GGGG",
+    "codigo": 1718
+  },
+  {
+    "nome": "Aveia",
+    "preco": "18.90",
+    "quantidade": 800,
+    "peso": 40,
+    "marca": "HHHH",
+    "codigo": 1920
+  },
+  {
+    "nome": "Pão",
+    "preco": "10.80",
+    "quantidade": 600,
+    "peso": 27,
+    "marca": "IIII",
+    "codigo": 2122
+  },
+  {
+    "nome": "Bifé",
+    "preco": "27.00",
+    "quantidade": 66,
+    "peso": 14,
+    "marca": "JJJJ",
+    "codigo": 2324
+  },
+  {
+    "nome": "Chocolate",
+    "preco": "13.50",
+    "marca": "KKKK",
+    "estoque": 20,
+    "codigo": "2526"
+  }
+]
