@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* Configurações Globais e Rolagem Suave */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FDFBF7; /* Bege bem claro para o fundo */
+            color: #4A3B32; /* Marrom escuro para o texto principal */
+            line-height: 1.6;
+        }
+
+        /* Barra de Navegação Fixa */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #5C4033; /* Marrom Café */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 15px 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #EEDC82; /* Bege Ouro/Claro para os links */
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #FFF; /* Destaque ao passar o mouse */
+        }
+
+        /* Cabeçalho / Banner Principal */
+        header {
+            background-color: #8B5A2B; /* Marrom Médio */
+            color: #FDFBF7;
+            text-align: center;
+            padding: 140px 20px 80px 20px; /* Compensando a barra fixa */
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            color: #F5DEB3; /* Bege Trigo */
+        }
+
+        /* Estrutura das Seções */
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 60px 20px 20px 20px; /* Margem superior interna para a âncora não sumir atrás do menu */
+            border-bottom: 1px solid #E5D3B3; /* Linha divisória em bege */
+        }
+
+        h2 {
+            color: #5C4033;
+            border-left: 5px solid #8B5A2B;
+            padding-left: 15px;
+            font-size: 2rem;
+            margin-bottom: 25px;
+        }
+
+        /* Estilização específica para Experiência e Educação */
+        .item-curriculo {
+            margin-bottom: 30px;
+        }
+
+        .item-curriculo h3 {
+            margin: 0 0 5px 0;
+            color: #8B5A2B;
+        }
+
+        .item-curriculo .periodo {
+            font-style: italic;
+            color: #7A6855;
+            font-size: 0.9rem;
+        }
+
+        /* Tags de Palavras-Chave (Habilidades) */
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background-color: #E5D3B3; /* Bege Médio */
+            color: #5C4033;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        /* Lista de Certificados */
+        .lista-certificados {
+            list-style: none;
+            padding: 0;
+        }
+
+        .lista-certificados li {
+            padding: 10px 0;
+            border-bottom: 1px dashed #E5D3B3;
+            display: flex;
+            align-items: center;
+        }
+
+        .lista-certificados li i {
+            color: #8B5A2B;
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #5C4033;
+            color: #FDFBF7;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#certificados">Certificados</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Larissa Alcantara</h1>
+        <p>Sua Profissão / Cargo de Interesse</p>
+    </header>
+
+    <section id="sobre">
+        <h2><i class="fa-solid fa-user"></i> Informações</h2>
+        <p> <b>Idade</b> : 16 anos<br>
+           <b>Email</b> : larisssaalcantaragomes@gmail.com <br>
+           <b>Telefone</b> : (42)99873-7302<br>
+           <B>Endereço</B> Avenidada Congonhas 912 - Chapada, Ponta Grossa PR, 84043-450<br>
+           <b> Habilidades</b> Jovem profissional com excelente capacidade de comunicação e facilidade para trabalho em equipe. Destaco-me pelo perfil focado na organização de rotinas e pelo compromisso rigoroso com o cumprimento de normas e horários. Busco uma oportunidade para contribuir com o crescimento da empresa e evoluir profissionalmente.
+           
+
+           
+
+
+
+
+
+        </p>
+    </section>
+
+    <section id="experiencia">
+        <h2><i class="fa-solid fa-briefcase"></i> Formação Academica</h2>
+        
+        <div class="item-curriculo">
+            <h3>Colégio Estadual Presidente Kennedy </h3>
+            <span class="periodo">2025 - 2027 </span>
+            
+
+
+        <div class="item-curriculo">
+            <p><b> 2 ano do Ensino Medio Tecnico em Desenvolvimento de Sistemas.</b></p>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2><i class="fa-solid fa-code"></i>Linguagens</h2>
+        <span class="periodo">Introdução a  </span><br>
+            
+        <div class="tags-container">
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Python</span>
+            <span class="tag">Git Hub</span>
+
+        </div>
+    </section>
+
+    <section id="certificados">
+        <h2><i class="fa-solid fa-certificate"></i> Certificados</h2>
+        <ul class="lista-certificados">
+            <li>
+                <i class="fa-solid fa-award"></i>
+                <div>
+                    <strong>Praticando com Python: laços for e while </strong> - Alura (2h)
+                </div>
+            </li>
+            <li>
+                <i class="fa-solid fa-award"></i>
+                <div>
+                    <strong>C#: criando sua primeira aplicação</strong> - Alura  (8h)
+                </div>
+            </li>
+            <li>
+                <i class="fa-solid fa-award"></i>
+                <div>
+                    <strong>C#: criando sua primeira aplicação</strong> - Alura (8h)
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
